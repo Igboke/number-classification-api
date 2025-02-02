@@ -69,3 +69,43 @@ cd number-classification-api
 ```bash
 pip install -r requirements.txt
 ```
+
+### Local Development
+
+1. Start Flask development server:
+
+```bash
+flask run --host=0.0.0.0 --port=5000
+```
+
+2. Test with curl
+
+```bash
+curl "http://localhost:5000/api/classify-number?number=371"
+```
+
+### Deployment
+
+### Testing
+
+Validate functionality with sample requests:
+
+```bash
+# Valid request
+curl "https://your-app-name.herokuapp.com/api/classify-number?number=28"
+
+# Invalid request
+curl "https://your-app-name.herokuapp.com/api/classify-number?number=abc"
+```
+
+### Contributing
+
+- Fork the repository
+
+- Create feature branch (git checkout -b feature/improvement)
+
+- Commit changes (git commit -m 'Add new feature')
+
+- Push to branch (git push origin feature/improvement)
+
+- Open Pull Request
