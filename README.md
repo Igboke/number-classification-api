@@ -92,10 +92,10 @@ Validate functionality with sample requests:
 
 ```bash
 # Valid request
-curl "https://your-app-name.herokuapp.com/api/classify-number?number=28"
+curl "https://number-classification-api-1n0u.onrender.com/api/classify-number?number=16"
 
 # Invalid request
-curl "https://your-app-name.herokuapp.com/api/classify-number?number=abc"
+curl "https://number-classification-api-1n0u.onrender.com/api/classify-number?number=abg"
 ```
 
 ### Contributing
